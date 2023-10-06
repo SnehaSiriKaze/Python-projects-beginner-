@@ -1,0 +1,27 @@
+#SNEHA SIRI NAGABATHULA
+#U10259041
+#ASSIGNMENT1 , QUESTION 1 -In this problem , I am required to create a program that
+#1) Prompts the user to enter two integer values.
+#2) Swaps the two values in their variables without using a third (temporary) variable.
+#Rules:
+#Changing the order of the output does NOT count. The values stored in the variables
+#must be swapped.
+#2) You cannot use a third variable to help with the swap.
+#3) Use only your knowledge of input, output, variables, and arithmetic to solve the
+#problem.
+
+#SOLUTION 1 ( for strings swapping):
+#num1 = input("Enter the first value(string preferably):")
+#num2 = input("Enter the second value:")
+#print(f"The values in num1 and num2 before the swap are  num1 = {num1} and num2 = {num2} respectively")
+#num1 ,num2 = num2 , num1
+#print(f"The values in num1 and num2 after the swap are num1 = {num1}  and num2 = {num2}" )
+
+#SOLUTION 2:
+num1 = int(input("Enter the first variable:"))
+num2 = int(input("Enter the second variable:"))
+print(f"The values in num1 and num2 before the swap are  num1 = {num1} and num2 = {num2} respectively")
+num1 = num1 + num2
+num2 = num1 - num2
+num1 = num1 - num2
+print(f"The values in num1 and num2 after the swap are  num1 = {num1} and num2 = {num2} respectively.")
